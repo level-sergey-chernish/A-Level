@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memmorizer", "Memmorizer\Memmorizer.csproj", "{C542D37F-DE28-4C75-93B1-F801B072D123}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C542D37F-DE28-4C75-93B1-F801B072D123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C542D37F-DE28-4C75-93B1-F801B072D123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C542D37F-DE28-4C75-93B1-F801B072D123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C542D37F-DE28-4C75-93B1-F801B072D123}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2471839-7501-47D2-AE9A-91C9412A823B}
+	EndGlobalSection
+EndGlobal
