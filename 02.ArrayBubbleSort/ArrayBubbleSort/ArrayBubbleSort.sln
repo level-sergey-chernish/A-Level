@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayBubbleSort", "ArrayBubbleSort\ArrayBubbleSort.csproj", "{DD0A60C0-3A9F-46C2-AD6F-D80DF563AACC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD0A60C0-3A9F-46C2-AD6F-D80DF563AACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD0A60C0-3A9F-46C2-AD6F-D80DF563AACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD0A60C0-3A9F-46C2-AD6F-D80DF563AACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD0A60C0-3A9F-46C2-AD6F-D80DF563AACC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FCB6481-083B-4522-82CB-E5C45DC566E1}
+	EndGlobalSection
+EndGlobal
