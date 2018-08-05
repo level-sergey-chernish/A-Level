@@ -63,7 +63,7 @@ namespace Store.Classes
         /// <summary>
         /// Calculate "is goods fine to store?";
         /// </summary>
-        public void GoodsStoreTermState()
+        protected void _GoodsStoreTermState()
         {
             DateTime receiptDate, currentDate, storageTermEndDate;
             double deltaDate;
@@ -86,6 +86,11 @@ namespace Store.Classes
                 Console.WriteLine("Goods will be fresh near {0} days up to {1:dd/MM/yyyy}", deltaDate, storageTermEndDate);
             }
 
+        }
+
+        public void GoodsStoreTermState()
+        {
+            _GoodsStoreTermState();
         }
 
         private string _receiptSet;
