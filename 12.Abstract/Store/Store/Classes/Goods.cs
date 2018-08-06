@@ -28,6 +28,7 @@ namespace Store.Classes
                     Console.WriteLine("Wrong data!\nValue must be Double ");
                     Console.ForegroundColor = ConsoleColor.White;
                     Console.WriteLine("Press Enter key to repeat");
+                    _goodsPrice = null;
                 }
             }
         }
