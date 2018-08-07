@@ -9,7 +9,8 @@ namespace Basket
 {
     class GamerNotepad : Gamer
     {
-        internal GamerNotepad(string gamerName, List<int> gamerGuessingResults, GamersType gamerType) : base(gamerName, gamerGuessingResults, gamerType)
+        internal GamerNotepad(string gamerName, List<int> gamerGuessingResults, GamersType gamerType) :
+            base(gamerName, gamerGuessingResults, gamerType)
         {
 
         }

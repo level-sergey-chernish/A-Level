@@ -9,11 +9,16 @@ namespace Basket
 {
     class GamerCheeter : Gamer
     {
-        internal GamerCheeter(string gamerName, List<int> gamerGuessingResults, GamersType gamerType) : base(gamerName, gamerGuessingResults, gamerType)
+        internal GamerCheeter(string gamerName, List<int> gamerGuessingResults, GamersType gamerType) :
+            base(gamerName, gamerGuessingResults, gamerType)
         {
 
         }
 
+        /// <summary>
+        /// Guessing randomly between Game.BasketScoreMin - Game.BasketScoreMax
+        /// but but skip used results of other gamers
+        /// </summary>
         protected override void GamerGuessing()
         {
             int guessAttempt;

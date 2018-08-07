@@ -9,7 +9,8 @@ namespace Basket
 {
     class GamerUber : Gamer
     {
-        internal GamerUber(string gamerName, List<int> gamerGuessingResults, GamersType gamerType) : base(gamerName, gamerGuessingResults, gamerType)
+        internal GamerUber(string gamerName, List<int> gamerGuessingResults, GamersType gamerType) :
+            base(gamerName, gamerGuessingResults, gamerType)
         {
 
         }
