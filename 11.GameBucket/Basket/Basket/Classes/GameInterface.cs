@@ -213,9 +213,11 @@ namespace Basket.Classes
             List<GamerUberCheeter> GamerUberCheeterList = gamerUberCheeterList;
 
             int attempts = 1;
-            while (attempts < Game.AttempsToToGuess)
+            bool isExit = false;
+            while (attempts <= Game.AttempsToToGuess)
             {
                 Console.Clear();
+                Alert($"GUESSED NUMBER IS {Game.GuessedNumber}. LET'S SEE WHO IS LUCKY");
                 Notify($"Guessing...attempts: {attempts}");
 
                 for (var i = 0; i < GamerList.Count; i++)
@@ -223,66 +225,76 @@ namespace Basket.Classes
                     GamerList.ElementAt(i).Guessing();
                     if (Game.ScoreChecker(GamerList.ElementAt(i).GamerGuessingResults.Last(), Game.GuessedNumber))
                     {
-                        Alert($"{GamerList.ElementAt(i).GamerType} " +
+                        Alert($"\n\n{GamerList.ElementAt(i).GamerType} " +
                             $"{GamerList.ElementAt(i).GamerName} won! He has guessed " +
                             $"{GamerList.ElementAt(i).GamerGuessingResults.Last()}");
-                        attempts = Game.AttempsToToGuess;
+                        isExit = true;
                     }
+                    if (isExit) { break; }
                 }
+                if (isExit) { break; }
 
                 for (var i = 0; i < NotepadGamerList.Count; i++)
                 {
                     NotepadGamerList.ElementAt(i).Guessing();
                     if (Game.ScoreChecker(NotepadGamerList.ElementAt(i).GamerGuessingResults.Last(), Game.GuessedNumber))
                     {
-                        Alert($"{NotepadGamerList.ElementAt(i).GamerType} " +
+                        Alert($"\n\n{NotepadGamerList.ElementAt(i).GamerType} " +
                             $"{NotepadGamerList.ElementAt(i).GamerName} won! He has guessed " +
                             $"{NotepadGamerList.ElementAt(i).GamerGuessingResults.Last()}");
-                        attempts = Game.AttempsToToGuess;
+                        isExit = true;
                     }
+                    if (isExit) { break; }
                 }
+                if (isExit) { break; }
 
                 for (var i = 0; i < GamerUberList.Count; i++)
                 {
                     GamerUberList.ElementAt(i).Guessing();
                     if (Game.ScoreChecker(GamerUberList.ElementAt(i).GamerGuessingResults.Last(), Game.GuessedNumber))
                     {
-                        Alert($"{GamerUberList.ElementAt(i).GamerType} " +
+                        Alert($"\n\n{GamerUberList.ElementAt(i).GamerType} " +
                             $"{GamerUberList.ElementAt(i).GamerName} won! He has guessed " +
                             $"{GamerUberList.ElementAt(i).GamerGuessingResults.Last()}");
-                        attempts = Game.AttempsToToGuess;
+                        isExit = true;
                     }
+                    if (isExit) { break; }
                 }
+                if (isExit) { break; }
 
                 for (var i = 0; i < GamerCheeterList.Count; i++)
                 {
                     GamerCheeterList.ElementAt(i).Guessing();
                     if (Game.ScoreChecker(GamerCheeterList.ElementAt(i).GamerGuessingResults.Last(), Game.GuessedNumber))
                     {
-                        Alert($"{GamerCheeterList.ElementAt(i).GamerType} " +
+                        Alert($"\n\n{GamerCheeterList.ElementAt(i).GamerType} " +
                             $"{GamerCheeterList.ElementAt(i).GamerName} won! He has guessed " +
                             $"{GamerCheeterList.ElementAt(i).GamerGuessingResults.Last()}");
-                        attempts = Game.AttempsToToGuess;
+                        isExit = true;
                     }
+                    if (isExit) { break; }
                 }
+                if (isExit) { break; }
 
                 for (var i = 0; i < GamerUberCheeterList.Count; i++)
                 {
                     GamerUberCheeterList.ElementAt(i).Guessing();
                     if (Game.ScoreChecker(GamerUberCheeterList.ElementAt(i).GamerGuessingResults.Last(), Game.GuessedNumber))
                     {
-                        Alert($"{GamerUberCheeterList.ElementAt(i).GamerType} " +
+                        Alert($"\n\n{GamerUberCheeterList.ElementAt(i).GamerType} " +
                             $"{GamerUberCheeterList.ElementAt(i).GamerName} won! He has guessed " +
                             $"{GamerUberCheeterList.ElementAt(i).GamerGuessingResults.Last()}");
-                        attempts = Game.AttempsToToGuess;
+                        isExit = true;
                     }
+                    if (isExit) { break; }
                 }
+                if (isExit) { break; }
 
                 attempts++;
             }
         }
 
-        private static void MenuHeader(string str)
+            private static void MenuHeader(string str)
         {
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine(str);
@@ -310,6 +322,5 @@ namespace Basket.Classes
             Console.WriteLine(str);
             Console.ForegroundColor = ConsoleColor.Gray;
         }
-
     }
 }
