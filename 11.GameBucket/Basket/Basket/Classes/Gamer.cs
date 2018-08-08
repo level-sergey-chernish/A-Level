@@ -28,6 +28,10 @@ namespace Basket.Classes
             GamerGuessing();
         }
 
+
+        /// <summary>
+        /// Guessing randomly between Game.BasketScoreMin - Game.BasketScoreMax
+        /// </summary>
         protected virtual void GamerGuessing()
         {
             int guessAttempt = Game.Randomizer(Game.BasketScoreMin, Game.BasketScoreMax);

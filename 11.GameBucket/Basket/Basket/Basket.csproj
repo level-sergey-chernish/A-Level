@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Game.cs" />
+    <Compile Include="Classes\GameInterface.cs" />
     <Compile Include="Classes\Gamer.cs" />
     <Compile Include="Classes\GamerCheeter.cs" />
     <Compile Include="Classes\GamerNotepad.cs" />
