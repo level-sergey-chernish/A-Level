@@ -10,13 +10,13 @@ namespace Basket
 {
     class Game
     {
-        internal static int BasketScoreMin { get; set; }
+        internal static int BasketScoreMin = 40;
 
-        internal static int BasketScoreMax { get; set; }
+        internal static int BasketScoreMax = 140;
 
-        internal static int GuessedNumber { get; set; }
+        internal static int GuessedNumber = Randomizer(Game.BasketScoreMin, Game.BasketScoreMax);
 
-        internal static int AttempsToToGuess { get; set; }
+        internal static int AttempsToToGuess = 100;
 
         internal static List<int> CommonGuessingResults = new List<int>();
 
@@ -45,7 +45,5 @@ namespace Basket
         {
             return (comparedNum == comparatorNum);
         }
-
-
     }
 }
