@@ -24,9 +24,10 @@ namespace Store.Classes
                 else
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Wrong data!\nValue must be in date format dd/mm/yyyy\n");
+                    Console.WriteLine("Wrong data!\nValue must be in date format mm/dd/yyyy\n");
                     Console.ForegroundColor = ConsoleColor.White;
                     Console.WriteLine("Press Enter key to repeat");
+                    _receiptSet =  null;
                 }
             }
         }
@@ -49,6 +50,7 @@ namespace Store.Classes
                     Console.WriteLine("Wrong data!\nValue must be integer ");
                     Console.ForegroundColor = ConsoleColor.White;
                     Console.WriteLine("Press Enter key to repeat");
+                    _storageTermSet = null;
                 }
             }
         }
