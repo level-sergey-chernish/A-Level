@@ -35,7 +35,7 @@ namespace Reflexion
                 }
             };
 
-            Func.PrintObjProperties(person);
+            Func.WriteToFile(Func.PrintObjProperties(person));
         }
 
 
