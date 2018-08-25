@@ -5,3 +5,5 @@ D:\Documents\Axell\VSRepo\16.HW\Reflexion\Reflexion\obj\Debug\Reflexion.csprojAs
 D:\Documents\Axell\VSRepo\16.HW\Reflexion\Reflexion\obj\Debug\Reflexion.csproj.CoreCompileInputs.cache
 D:\Documents\Axell\VSRepo\16.HW\Reflexion\Reflexion\obj\Debug\Reflexion.exe
 D:\Documents\Axell\VSRepo\16.HW\Reflexion\Reflexion\obj\Debug\Reflexion.pdb
+D:\Documents\Axell\VSRepo\16.HW\Reflexion\Reflexion\bin\Debug\Reflexion.exe.CodeAnalysisLog.xml
+D:\Documents\Axell\VSRepo\16.HW\Reflexion\Reflexion\bin\Debug\Reflexion.exe.lastcodeanalysissucceeded
