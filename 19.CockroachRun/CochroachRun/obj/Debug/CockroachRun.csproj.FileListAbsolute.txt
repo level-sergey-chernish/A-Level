@@ -1,0 +1,7 @@
+D:\Documents\A-Level\Module02\19.CockroachRun\CochroachRun\bin\Debug\CochroachRun.exe.config
+D:\Documents\A-Level\Module02\19.CockroachRun\CochroachRun\bin\Debug\CochroachRun.exe
+D:\Documents\A-Level\Module02\19.CockroachRun\CochroachRun\bin\Debug\CochroachRun.pdb
+D:\Documents\A-Level\Module02\19.CockroachRun\CochroachRun\obj\Debug\CockroachRun.csprojAssemblyReference.cache
+D:\Documents\A-Level\Module02\19.CockroachRun\CochroachRun\obj\Debug\CockroachRun.csproj.CoreCompileInputs.cache
+D:\Documents\A-Level\Module02\19.CockroachRun\CochroachRun\obj\Debug\CochroachRun.exe
+D:\Documents\A-Level\Module02\19.CockroachRun\CochroachRun\obj\Debug\CochroachRun.pdb
