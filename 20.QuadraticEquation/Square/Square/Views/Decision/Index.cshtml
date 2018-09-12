@@ -1,0 +1,89 @@
+﻿
+@using Square.Logic.Models
+@model Input
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Quadratic Equation</h2>
+
+@using (Html.BeginForm("Index", "Decision"))
+{
+    <table>
+        <tr>
+            <td>
+                <b>
+                    @Html.TextBoxFor(x => x.A, new { id = "A", maxlength = 10, size = 1 })x<sup><small>2</small></sup> +
+                </b>
+            </td>
+            <td>
+                <b>
+                    @Html.TextBoxFor(x => x.B, new { id = "B", maxlength = 10, size = 1 })x +
+                </b>
+            </td>
+            <td>
+                <b>
+                    @Html.TextBoxFor(x => x.C, new { id = "B", maxlength = 10, size = 1 }) = 0
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+    </table>
+
+    <br />
+    <input type="submit" value="Find roots" />
+}
+
+@*@if (Model != null && Model.X != null)
+{
+    foreach (var x in Model.X)
+    {
+        <p>@x</p>
+    }
+}*@
+
+    <div class="alert-info">
+        <h3>Result</h3>
+        @if (Model != null && Model.A != null)
+        {
+            if (Model.A == 0)
+            {
+                <p><b><font color="red">@Model.Notify</font></b></p>
+            }
+
+            if (Model.D < 0)
+            {
+                <p><b><font color="blue">D = @Model.D</font></b></p>
+                <p><b><font color="blue">@Model.Notify</font></b></p>
+            }
+
+            if (Model.D == 0)
+            {
+                <p><b><font color="blue">D = @Model.D</font></b></p>
+                <p><b><font color="blue">@Model.Notify</font></b></p>
+                <p><b><font color="blue">x1 = @Model.X.ElementAt(0)</font></b></p>
+            }
+
+            if (Model.D > 0)
+            {
+                <p><b><font color="blue">D = @Model.D</font></b></p>
+                <p><b><font color="blue">@Model.Notify</font></b></p>
+                <p><b><font color="blue">x1 = @Model.X.ElementAt(0)</font></b></p>
+                <p><b><font color="blue">x2 = @Model.X.ElementAt(1)</font></b></p>
+            }
+
+        }
+    </div>
+
+
+@*<input type="text" name="A" />x ^ 2 +
+    <input type="text" name="B" /> x +
+    <input type="text" name="C" /> = 0*@
+
+
+
