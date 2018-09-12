@@ -19,7 +19,7 @@ namespace Square.Controllers
         [HttpPost]
         public ActionResult Index(Input model)
         {
-            ICalculateService service = new CalculateServiceMock();
+            ICalculateService service = new CalculateService();
 
             service.Calculate(model);
 

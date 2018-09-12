@@ -16,19 +16,6 @@ namespace Square.Logic.Services
     {
         public void Calculate(Input model)
         {
-            model.X = new List<double>{};
-
-            if (model.A == 0)
-            {
-         //       model.D;
-            }
-         }
-    }
-
-    public class CalculateServiceMock: ICalculateService
-    {
-        public void Calculate(Input model)
-        {
             model.X = new List<double> { };
 
             if (model.A == 0)
