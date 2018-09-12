@@ -1,7 +1,0 @@
-D:\Documents\A-Level\Module02\16. Reflexion\Reflexion\bin\Debug\Reflexion.exe.config
-D:\Documents\A-Level\Module02\16. Reflexion\Reflexion\bin\Debug\Reflexion.exe
-D:\Documents\A-Level\Module02\16. Reflexion\Reflexion\bin\Debug\Reflexion.pdb
-D:\Documents\A-Level\Module02\16. Reflexion\Reflexion\obj\Debug\Reflexion.csprojAssemblyReference.cache
-D:\Documents\A-Level\Module02\16. Reflexion\Reflexion\obj\Debug\Reflexion.csproj.CoreCompileInputs.cache
-D:\Documents\A-Level\Module02\16. Reflexion\Reflexion\obj\Debug\Reflexion.exe
-D:\Documents\A-Level\Module02\16. Reflexion\Reflexion\obj\Debug\Reflexion.pdb
